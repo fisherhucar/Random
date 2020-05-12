@@ -1,0 +1,233 @@
+checking for a BSD-compatible install... /bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+configure: BUFRLIB_NAME will be set
+configure: -DBLOCK4 will be used in the compiles
+configure: Dynamic linking will not be used in the compiles
+configure: ascii2nc will be compiled
+configure: lidar2nc will be compiled
+configure: ensemble_stat will be compiled
+configure: gen_vx_mask will be compiled
+configure: gis_utils will be compiled
+configure: grid_stat will be compiled
+configure: madis2nc will be compiled
+configure: mode will be compiled
+configure: mode_analysis will be compiled
+configure: pb2nc will be compiled
+configure: pcp_combine will be compiled
+configure: plot_data_plane will be compiled
+configure: regrid_data_plane will be compiled
+configure: point2grid will be compiled
+configure: shift_data_plane will be compiled
+configure: plot_point_obs will be compiled
+configure: point_stat will be compiled
+configure: stat_analysis will be compiled
+configure: wavelet_stat will be compiled
+configure: series_analysis will be compiled
+configure: wwmca will be compiled
+configure: modis will be compiled
+configure: mode_graphics will not be compiled
+configure: mode_time_domain will be compiled
+configure: tc_utils will be compiled
+configure: gsi_tools will be compiled
+configure: GRIB2 utilites will be compiled
+configure: GRIB2CLIB_NAME will be set
+configure: python embedding will not be compiled
+checking for bison... bison -y
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether /bin/g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of /bin/g++... gcc3
+checking for gcc... /bin/gcc
+checking whether we are using the GNU C compiler... yes
+checking whether /bin/gcc accepts -g... yes
+checking for /bin/gcc option to accept ISO C89... none needed
+checking whether /bin/gcc understands -c and -o together... yes
+checking dependency style of /bin/gcc... gcc3
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether /bin/gfortran accepts -g... yes
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking for ranlib... ranlib
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to get verbose linking output from /bin/gfortran... -v
+checking for Fortran 77 libraries of /bin/gfortran...  -L-L/home/hank.fisher/MET9_0_1_nopython/external_libs/lib -L${MET_NETCDF}/lib -L${MET_HDF5}/lib -L${MET_GRIB2C}/lib -L${MET_GSL}/lib -L/home/hank.fisher/MET9_0_1_nopython/external_libs/lib -L${MET_HDF}/lib -L${MET_HDFEOS}/lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -lgfortran -lm -lquadmath
+checking how to run the C preprocessor... /bin/gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for memory.h... (cached) yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for unistd.h... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inline... inline
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int8_t... yes
+checking for off_t... yes
+checking for size_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint8_t... yes
+checking for error_at_line... yes
+checking for dup2... yes
+checking for floor... no
+checking for gethostname... yes
+checking for memset... yes
+checking for mkdir... yes
+checking for pow... no
+checking for regcomp... yes
+checking for select... yes
+checking for setenv... yes
+checking for sqrt... no
+checking for strcasecmp... yes
+checking for strchr... yes
+checking for strcspn... yes
+checking for strerror... yes
+checking for strncasecmp... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for isatty... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating scripts/Rscripts/Makefile
+config.status: creating scripts/Rscripts/include/Makefile
+config.status: creating scripts/python/Makefile
+config.status: creating data/Makefile
+config.status: creating data/colortables/Makefile
+config.status: creating data/colortables/NCL_colortables/Makefile
+config.status: creating data/config/Makefile
+config.status: creating data/map/Makefile
+config.status: creating data/map/admin_by_country/Makefile
+config.status: creating data/poly/Makefile
+config.status: creating data/poly/HMT_masks/Makefile
+config.status: creating data/poly/NCEP_masks/Makefile
+config.status: creating data/wrappers/Makefile
+config.status: creating data/ps/Makefile
+config.status: creating data/table_files/Makefile
+config.status: creating data/tc_data/Makefile
+config.status: creating src/Makefile
+config.status: creating src/basic/Makefile
+config.status: creating src/basic/enum_to_string/Makefile
+config.status: creating src/basic/vx_cal/Makefile
+config.status: creating src/basic/vx_config/Makefile
+config.status: creating src/basic/vx_log/Makefile
+config.status: creating src/basic/vx_math/Makefile
+config.status: creating src/basic/vx_util/Makefile
+config.status: creating src/libcode/Makefile
+config.status: creating src/libcode/vx_afm/Makefile
+config.status: creating src/libcode/vx_analysis_util/Makefile
+config.status: creating src/libcode/vx_color/Makefile
+config.status: creating src/libcode/vx_data2d/Makefile
+config.status: creating src/libcode/vx_data2d_factory/Makefile
+config.status: creating src/libcode/vx_data2d_grib/Makefile
+config.status: creating src/libcode/vx_data2d_grib2/Makefile
+config.status: creating src/libcode/vx_data2d_nc_met/Makefile
+config.status: creating src/libcode/vx_data2d_nc_pinterp/Makefile
+config.status: creating src/libcode/vx_data2d_nccf/Makefile
+config.status: creating src/libcode/vx_geodesy/Makefile
+config.status: creating src/libcode/vx_gis/Makefile
+config.status: creating src/libcode/vx_gnomon/Makefile
+config.status: creating src/libcode/vx_grid/Makefile
+config.status: creating src/libcode/vx_gsl_prob/Makefile
+config.status: creating src/libcode/vx_nav/Makefile
+config.status: creating src/libcode/vx_solar/Makefile
+config.status: creating src/libcode/vx_nc_obs/Makefile
+config.status: creating src/libcode/vx_nc_util/Makefile
+config.status: creating src/libcode/vx_pb_util/Makefile
+config.status: creating src/libcode/vx_plot_util/Makefile
+config.status: creating src/libcode/vx_ps/Makefile
+config.status: creating src/libcode/vx_pxm/Makefile
+config.status: creating src/libcode/vx_render/Makefile
+config.status: creating src/libcode/vx_shapedata/Makefile
+config.status: creating src/libcode/vx_stat_out/Makefile
+config.status: creating src/libcode/vx_statistics/Makefile
+config.status: creating src/libcode/vx_time_series/Makefile
+config.status: creating src/libcode/vx_physics/Makefile
+config.status: creating src/libcode/vx_series_data/Makefile
+config.status: creating src/libcode/vx_regrid/Makefile
+config.status: creating src/libcode/vx_tc_util/Makefile
+config.status: creating src/libcode/vx_summary/Makefile
+config.status: creating src/libcode/vx_python3_utils/Makefile
+config.status: creating src/libcode/vx_data2d_python/Makefile
+config.status: creating src/tools/Makefile
+config.status: creating src/tools/core/Makefile
+config.status: creating src/tools/core/ensemble_stat/Makefile
+config.status: creating src/tools/core/grid_stat/Makefile
+config.status: creating src/tools/core/mode/Makefile
+config.status: creating src/tools/core/mode_analysis/Makefile
+config.status: creating src/tools/core/pcp_combine/Makefile
+config.status: creating src/tools/core/point_stat/Makefile
+config.status: creating src/tools/core/series_analysis/Makefile
+config.status: creating src/tools/core/stat_analysis/Makefile
+config.status: creating src/tools/core/wavelet_stat/Makefile
+config.status: creating src/tools/other/Makefile
+config.status: creating src/tools/other/ascii2nc/Makefile
+config.status: creating src/tools/other/lidar2nc/Makefile
+config.status: creating src/tools/other/gen_vx_mask/Makefile
+config.status: creating src/tools/other/gis_utils/Makefile
+config.status: creating src/tools/other/madis2nc/Makefile
+config.status: creating src/tools/other/mode_graphics/Makefile
+config.status: creating src/tools/other/modis_regrid/Makefile
+config.status: creating src/tools/other/pb2nc/Makefile
+config.status: creating src/tools/other/plot_data_plane/Makefile
+config.status: creating src/tools/other/plot_point_obs/Makefile
+config.status: creating src/tools/other/wwmca_tool/Makefile
+config.status: creating src/tools/other/gsi_tools/Makefile
+config.status: creating src/tools/other/regrid_data_plane/Makefile
+config.status: creating src/tools/other/point2grid/Makefile
+config.status: creating src/tools/other/shift_data_plane/Makefile
+config.status: creating src/tools/other/mode_time_domain/Makefile
+config.status: creating src/tools/other/grid_diag/Makefile
+config.status: creating src/tools/tc_utils/Makefile
+config.status: creating src/tools/tc_utils/tc_dland/Makefile
+config.status: creating src/tools/tc_utils/tc_pairs/Makefile
+config.status: creating src/tools/tc_utils/tc_stat/Makefile
+config.status: creating src/tools/tc_utils/tc_gen/Makefile
+config.status: creating src/tools/tc_utils/rmw_analysis/Makefile
+config.status: creating src/tools/tc_utils/tc_rmw/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
